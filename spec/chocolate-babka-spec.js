@@ -1,5 +1,5 @@
 describe('Chocolate Babka Counter', function() {
-  describe('basic counter closure accepting a starting number', function() {  
+  describe('basic counter closure accepting a starting number', function() {
     var bakeryCounter = counterCreator(0);
     it('should increment the number', function() {
       expect(bakeryCounter()).toEqual(1);
